@@ -1,0 +1,68 @@
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #eee;
+}
+
+.month {
+	float: left;
+	width: 230px;
+	height: 225px;
+	margin: 20px;
+	background-color: lightskyblue;
+	color: black;
+	font-size: 25px;
+	font-family: cursive;
+	border: solid 1px blue;
+	border-radius: 10%;
+}
+
+.day {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+	background-color: lightyellow;
+	font-size: 15px;
+	font-family: cursive;
+	border: solid 1px white;
+	border-radius: 25%;
+}
+
+.days {
+	padding: 5px;
+	padding-bottom: 1px;
+	background-color: lightskyblue;
+}
+
+.dayP {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+}
+
+.day:hover {
+	background-color: yellow;
+	cursor: pointer;
+}
+.next {
+    background-color: #eee;
+    width: 150px;
+    height: 120px;
+    float: left;
+    border: 2px solid green;
+    margin: 10px;
+    padding: 5px;
+}
+.evente{
+    padding-top: 33px;
+    padding-left: 33px;
+}
+h2{
+    text-align: center;
+}
+.next:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
